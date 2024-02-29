@@ -1,5 +1,7 @@
 body{
   background-color: black;
+  margin: 0px;
+  padding: 0px;
 }
 #searchSong{
   width: 400px;
@@ -58,4 +60,33 @@ li{
 
 .songList::-webkit-scrollbar-thumb:hover {
   background: rgba(151, 235, 210, 0.549); /* color of the thumb on hover */
+}
+
+.SignUpBtn{
+    height: 30px;
+    width: 5%;
+    border-radius: 5px;
+    border: 1px solid black;
+    position: relative;
+    left: 84%;
+    margin: 1%;
+    background: rgb(225, 119, 119);
+}
+.logInBtn{
+    height: 30px;
+    width: 5%;
+    border-radius: 5px;
+    border: 1px solid black;
+    position: relative;
+    left: 83%;
+    margin: 1%;
+    background: rgb(85, 222, 231);
+}
+.header{
+  height: 5%;
+  width: 100vw;
+  position: sticky;
+  top: 0px;
+  background: rgb(190, 170, 239);
+  display: flex;
 }
